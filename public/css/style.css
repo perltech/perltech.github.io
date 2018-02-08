@@ -1,0 +1,27 @@
+@font-face {
+    font-family: alteHaasGrotesk;
+    src: url('../fonts/alte_haas_grotesk/AlteHaasGroteskRegular.ttf');
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.grey-text {
+    padding: 0px 25px;
+}
+
+nav div a,
+#logo-container,
+#nav-mobile a,
+h1,
+h3 {
+    color: black;
+    font-family: alteHaasGrotesk;
+}

@@ -1,91 +1,83 @@
 <!DOCTYPE html>
-<html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
 <head>
-	<title>Welcome</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Noah Perlmutter</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-  	<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-  	<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
-  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
- 	<link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./public/css/style.css">
 </head>
+
 <body>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <nav class="white" role="navigation">
+        <div class="nav-wrapper container">
+            <a id="logo-container" href="./index.html" class="flow-text brand-logo">Perltech Solutions</a>
+            <ul class="right hide-on-med-and-down">
+                <li>
+                    <a href="#">About Me</a>
+                </li>
+                <li>
+                    <a href="#">Portfolio</a>
+                </li>
+                <li>
+                    <a href="./contact.html">Contact Me</a>
+                </li>
+            </ul>
 
-	<div class="container-fluid">
-		<nav class="navbarnavbar-light bg-faded text-center jumbotron">
-		  <h1>Noah Perlmutter</h1>
-		</nav>
-	</div>
-	
-	<div class="container-fluid">
-	    <div class="row text-center col-lg-12">
-	        <h3 class="headermessage">Previous Assignments</h3>
-	    </div>
-	    <div class="row">
-	        <div class="image-block col-sm-4" style="background: url(http://www.prepbootstrap.com/Content/images/template/ResponsiveImageTiles/city1.jpg) no-repeat center top;background-size:cover;">
-	            <p>
-	            	<a href="https://perltech.github.io/Basic-Portfolio/" target="_blank">Basic Portfolio</a>
-	            </p>
-	        </div>
-	        <div class="image-block col-sm-8" style="background: url(http://www.prepbootstrap.com/Content/images/template/ResponsiveImageTiles/city2.jpg) no-repeat center top;background-size:cover;">
-	            <p>
-	            	<a href="https://perltech.github.io/Responsive-Portfolio/index.html" target="_blank">Mobile Responsive Portfolio</a>
-            	</p>
-	        </div>
-	        <div class="image-block col-sm-4" style="background: url(http://www.prepbootstrap.com/Content/images/template/ResponsiveImageTiles/city3.jpg) no-repeat center top;background-size:cover;">
-	            <p>
-	            	<a href="https://perltech.github.io/Bootstrap-Portfolio/" target="_blank">Bootstrap Portfolio</a>
-	            </p>
-	        </div>
-	        <div class="image-block col-sm-4" style="background: url(http://www.prepbootstrap.com/Content/images/template/ResponsiveImageTiles/city4.jpg) no-repeat center top;background-size:cover;">
-	            <p>
-	            	<a href="https://perltech.github.io/Psychic-Game/" target="_blank">Psychic Game</a>
-	            </p>
-	        </div>
-	        <div class="image-block col-sm-4" style="background: url(http://www.prepbootstrap.com/Content/images/template/ResponsiveImageTiles/city5.jpg) no-repeat center top;background-size:cover;">
-	            <p>
-	            	<a href="https://perltech.github.io/week-4-game/" target="_blank">Crystal Collector</a>
-	            </p>
-	        </div>
-<!-- 	        <div class="image-block col-sm-8" style="background: url(http://www.prepbootstrap.com/Content/images/template/ResponsiveImageTiles/city6.jpg) no-repeat center top;background-size:cover;">
-	            <p>
-	            	Image Info
-	            </p>
-	        </div>
-	        <div class="image-block col-sm-4" style="background: url(http://www.prepbootstrap.com/Content/images/template/ResponsiveImageTiles/city7.jpg) no-repeat center top;background-size:cover;">
-	            <p>
-	            	Image Info
-	            </p>            
-	        </div> -->
-	   </div>
+            <ul id="nav-mobile" class="side-nav flow-text" style="transform: translateX(-100%);">
+                <li>
+                    <a href="#">About Me</a>
+                </li>
+                <li>
+                    <a href="#">Portfolio</a>
+                </li>
+                <li>
+                    <a href="./contact.html">Contact Me</a>
+                </li>
+            </ul>
+            <a href="#" data-activates="nav-mobile" class="button-collapse">
+                <i class="material-icons">menu</i>
+            </a>
+        </div>
+    </nav>
 
-
-		<div class="container follow-us-container">
-		    <div class="text-center follow-us">
-		        Follow Us
-		    </div>
-		    <br />
-		    <div class="text-center">
-		    	<a class="fa fa-github social-icon" href="https://github.com/perltech" target="_blank"></a>
-		        <a class="fa fa-linkedin social-icon" href="https://www.linkedin.com/in/noah-perlmutter-7412b9137/" target="_blank"></a>
-		    </div>
-		</div>
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="./public/images/bgLanding.jpg">
+        </div>
+    </div>
+    <div class="section white">
+        <div class="row container">
+            <h1 class="header center">Noah Perlmutter</h1>
+            <h3 class="header center">Perltech Solutions</h3>
+        </div>
+    </div>
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="./public/images/bgLanding.jpg">
+        </div>
+    </div>
 
 
-
-	</div> <!-- Container-fluid end -->
-
-
-
-
-
-
-
-
-
-
+    <!-- Begin JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    <script src='./public/js/app.js'></script>
 
 
 </body>
+
 </html>
