@@ -25,3 +25,12 @@ h3 {
     color: black;
     font-family: alteHaasGrotesk;
 }
+
+.contact-bg {
+    background-image: url('../images/bgContact.jpg');
+    background-size: cover;
+}
+
+input[type="text"] {
+    background-color: white;
+}
