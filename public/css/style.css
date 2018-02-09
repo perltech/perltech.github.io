@@ -31,6 +31,28 @@ h3 {
     background-size: cover;
 }
 
-input[type="text"] {
-    background-color: white;
+
+
+.carousel-first {
+    background-image: url('../images/bartender.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel-second {
+    background-image: url('../images/dj.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel-third {
+    background-image: url('../images/bamazon.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel-fourth {
+    background-image: url('../images/node.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
