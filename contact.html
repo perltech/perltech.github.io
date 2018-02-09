@@ -59,35 +59,33 @@
             <h5 class="flow-text center white-text">Feel Free to Drop Me a Line :)</h5>
         </div>
         <div class="row">
-            <form class="col s12">
+            <form class="col s12" action="mailto:noah.perlmutter@gmail.com" method="post" enctype="text/plain">
                 <div class="row">
                     <div class="input-field col s6">
-                        <input id="first_name" type="text" class="validate">
+                        <input id="first_name" type="text" class="validate" name="first-name">
                         <label for="first_name">First Name</label>
                     </div>
                     <div class="input-field col s6">
-                        <input id="last_name" type="text" class="validate">
+                        <input id="last_name" type="text" class="validate" name="last-name">
                         <label for="last_name">Last Name</label>
                     </div>
                 </div>
                 <div class="row">
                     <div class="input-field col s12">
-                        <input id="email" type="email" class="validate">
+                        <input id="email" type="email" class="validate" name="email">
                         <label for="email">Email</label>
                     </div>
                 </div>
                 <div class="row">
-                    <form class="col s12">
-                        <div class="row">
-                            <div class="input-field col s12">
-                                <textarea id="textarea1" class="materialize-textarea"></textarea>
-                                <label for="textarea1">Message</label>
-                            </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <textarea id="textarea1" class="materialize-textarea" name="comments"></textarea>
+                            <label for="textarea1">Message</label>
                         </div>
-                    </form>
+                    </div>
                 </div>
                 <div class="row col s6 offset-s8">
-                    <button class="btn waves-effect waves-light btn-large" type="submit" name="action">Submit
+                    <button class="btn waves-effect waves-light btn-large" type="submit">Submit
                         <i class="material-icons right">send</i>
                     </button>
                 </div>
